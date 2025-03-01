@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Book</class>
+ <widget class="QWidget" name="Book">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color: rgb(251, 251, 251);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_7" stretch="0">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_20">
+        <property name="styleSheet">
+         <string notr="true">QFrame#Frame_20{
+	background-color: rgb(246, 246, 246);
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="9">
+           <property name="spacing">
+            <number>12</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="frame_4">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_6">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,1,9">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_7">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                    <property name="spacing">
+                     <number>6</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>12</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>12</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>4</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="m_returnPB">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+padding:4px;
+padding-left:12px;padding-right:12px;
+	color: rgb(31, 171, 255);
+	background-color: rgb(240, 250, 255);
+	border:1px outset rgb(255, 255, 255);
+	border-radius:18px;
+}
+QPushButton:hover {
+background-color: rgb(240, 250, 255);
+
+}
+QPushButton:pressed {
+background-color: rgb(240, 250, 255);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;&lt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="m_pUploadPB">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+padding:4px;
+padding-left:12px;padding-right:12px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(7, 167, 255);
+	border:1px outset rgb(255, 255, 255);
+	border-radius:18px;
+}
+QPushButton:hover {
+background-color: rgb(7, 167, 255);
+
+}
+QPushButton:pressed {
+background-color: rgb(7, 167, 255);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>上传</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="m_pCreateDirPB">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+padding:4px;
+padding-left:12px;padding-right:12px;
+	color: rgb(31, 171, 255);
+	background-color: rgb(240, 250, 255);
+	border:1px outset rgb(255, 255, 255);
+	border-radius:18px;
+}
+QPushButton:hover {
+background-color: rgb(240, 250, 255);
+
+}
+QPushButton:pressed {
+background-color: rgb(240, 250, 255);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>新建文件夹</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="m_pRenamePB">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+padding:4px;
+padding-left:12px;padding-right:12px;
+	color: rgb(31, 171, 255);
+	background-color: rgb(240, 250, 255);
+	border:1px outset rgb(255, 255, 255);
+	border-radius:18px;
+}
+QPushButton:hover {
+background-color: rgb(240, 250, 255);
+
+}
+QPushButton:pressed {
+background-color: rgb(240, 250, 255);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>重命名</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="m_pDelDirPB">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>36</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+padding:4px;
+padding-left:12px;padding-right:12px;
+	color: rgba(255, 58, 34, 195);
+	background-color: rgba(255, 255, 255, 0);
+	
+border:1px solid rgba(255, 58, 34, 195);
+	border-radius:18px;
+}
+QPushButton:hover {
+background-color: rgb(240, 250, 255);
+
+}
+QPushButton:pressed {
+background-color: rgb(240, 250, 255);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string>删除</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_16">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QFrame{
+padding-left:6px;
+padding-right:12px;
+	background-color: rgba(0, 0, 0, 10);
+border-radius:12px;
+}</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_15">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLineEdit" name="lineEdit">
+                         <property name="styleSheet">
+                          <string notr="true">border:none;
+background-color: rgba(255, 255, 255, 0);
+color: rgba(0, 0, 0, 60);
+padding-left:6px</string>
+                         </property>
+                         <property name="placeholderText">
+                          <string>搜索全部文件</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="pushButton_14">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>32</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border:none;
+color: rgba(0, 0, 0, 158);</string>
+                         </property>
+                         <property name="text">
+                          <string>搜索</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_8">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>32</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                    <property name="spacing">
+                     <number>8</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>12</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>12</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_7">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgba(0, 0, 0, 143);</string>
+                      </property>
+                      <property name="text">
+                       <string>我的文件</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_6">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgba(0, 0, 0, 143);</string>
+                      </property>
+                      <property name="text">
+                       <string>已全部加载，</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_5">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgba(0, 0, 0, 143);</string>
+                      </property>
+                      <property name="text">
+                       <string>共16个</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QToolButton" name="m_pDownloadFilePB">
+                      <property name="styleSheet">
+                       <string notr="true">QToolButton{
+	background-color: rgba(0, 0, 0, 0);
+border:1px solid rgb(197, 197, 197);
+	border-radius:6px;
+padding:2px;
+padding-left:6px;padding-right:6px;
+
+}
+QToolButton:hover {
+background-color: rgba(0, 0, 0, 15);
+
+}
+QToolButton:pressed {
+background-color: rgba(0, 0, 0, 20);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="res.qrc">
+                        <normaloff>:/images/images/download.png</normaloff>:/images/images/download.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>18</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QToolButton" name="m_pFlushFilePB">
+                      <property name="styleSheet">
+                       <string notr="true">QToolButton{
+	background-color: rgba(0, 0, 0, 0);
+border:1px solid rgb(197, 197, 197);
+	border-radius:6px;
+padding:2px;
+padding-left:6px;padding-right:6px;
+
+}
+QToolButton:hover {
+background-color: rgba(0, 0, 0, 15);
+
+}
+QToolButton:pressed {
+background-color: rgba(0, 0, 0, 20);
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="res.qrc">
+                        <normaloff>:/images/images/refresh.png</normaloff>:/images/images/refresh.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>18</width>
+                        <height>18</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QScrollArea" name="scrollArea">
+                   <property name="styleSheet">
+                    <string notr="true">#scrollAreaWidgetContents{
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>true</bool>
+                   </property>
+                   <widget class="QWidget" name="scrollAreaWidgetContents">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>896</width>
+                      <height>466</height>
+                     </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                     <item>
+                      <widget class="QTableWidget" name="tableWidget">
+                       <property name="styleSheet">
+                        <string notr="true">QTableWidget{
+	color: rgba(16, 16, 16,200);
+outline:0px;
+border-radius:0px;
+selection-background-color:  rgb(235, 235, 235);
+}
+QTableWidget:item{
+	color: rgba(16, 16, 16,200);
+	border-bottom:0px solid rgba(50, 50, 50,30);
+}
+QHeaderView::section{
+border-radius:0px;
+	color: rgba(16, 16, 16,200);
+}
+QTableWidget:item::hover {
+	color: rgba(16, 16, 16,200);
+}
+QTableWidget:item::focus{
+	color: rgba(16, 16, 16,200);
+	outline: none; 
+	
+}
+QTableWidget::item:selected {
+    color: rgb(31, 171, 255); /* 选中状态下文字颜色 */
+}</string>
+                       </property>
+                       <property name="lineWidth">
+                        <number>1</number>
+                       </property>
+                       <property name="selectionMode">
+                        <enum>QAbstractItemView::SingleSelection</enum>
+                       </property>
+                       <property name="selectionBehavior">
+                        <enum>QAbstractItemView::SelectRows</enum>
+                       </property>
+                       <property name="showGrid">
+                        <bool>false</bool>
+                       </property>
+                       <attribute name="horizontalHeaderVisible">
+                        <bool>false</bool>
+                       </attribute>
+                       <attribute name="horizontalHeaderMinimumSectionSize">
+                        <number>150</number>
+                       </attribute>
+                       <attribute name="horizontalHeaderDefaultSectionSize">
+                        <number>150</number>
+                       </attribute>
+                       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                        <bool>false</bool>
+                       </attribute>
+                       <attribute name="horizontalHeaderStretchLastSection">
+                        <bool>true</bool>
+                       </attribute>
+                       <attribute name="verticalHeaderVisible">
+                        <bool>false</bool>
+                       </attribute>
+                       <attribute name="verticalHeaderMinimumSectionSize">
+                        <number>30</number>
+                       </attribute>
+                       <attribute name="verticalHeaderDefaultSectionSize">
+                        <number>50</number>
+                       </attribute>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <row>
+                        <property name="text">
+                         <string>新建行</string>
+                        </property>
+                       </row>
+                       <column>
+                        <property name="text">
+                         <string>kuang</string>
+                        </property>
+                        <property name="textAlignment">
+                         <set>AlignLeading|AlignVCenter</set>
+                        </property>
+                       </column>
+                       <column>
+                        <property name="text">
+                         <string>文件名</string>
+                        </property>
+                        <property name="textAlignment">
+                         <set>AlignLeading|AlignVCenter</set>
+                        </property>
+                       </column>
+                       <column>
+                        <property name="text">
+                         <string>大小</string>
+                        </property>
+                        <property name="textAlignment">
+                         <set>AlignLeading|AlignVCenter</set>
+                        </property>
+                       </column>
+                       <column>
+                        <property name="text">
+                         <string>类型</string>
+                        </property>
+                        <property name="textAlignment">
+                         <set>AlignLeading|AlignVCenter</set>
+                        </property>
+                       </column>
+                       <column>
+                        <property name="text">
+                         <string>修改时间</string>
+                        </property>
+                        <property name="textAlignment">
+                         <set>AlignLeading|AlignVCenter</set>
+                        </property>
+                       </column>
+                       <item row="0" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="0" column="1">
+                        <property name="text">
+                         <string>文件名</string>
+                        </property>
+                       </item>
+                       <item row="0" column="2">
+                        <property name="text">
+                         <string>大小</string>
+                        </property>
+                       </item>
+                       <item row="0" column="3">
+                        <property name="text">
+                         <string>类型</string>
+                        </property>
+                       </item>
+                       <item row="0" column="4">
+                        <property name="text">
+                         <string>修改时间</string>
+                        </property>
+                       </item>
+                       <item row="1" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="1" column="1">
+                        <property name="text">
+                         <string>maya</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="res.qrc">
+                          <normaloff>:/map/map/folder.png</normaloff>:/map/map/folder.png</iconset>
+                        </property>
+                       </item>
+                       <item row="1" column="2">
+                        <property name="text">
+                         <string>-</string>
+                        </property>
+                       </item>
+                       <item row="1" column="3">
+                        <property name="text">
+                         <string>文件夹</string>
+                        </property>
+                       </item>
+                       <item row="1" column="4">
+                        <property name="text">
+                         <string>2012.07.17 15:58</string>
+                        </property>
+                       </item>
+                       <item row="2" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="2" column="1">
+                        <property name="text">
+                         <string>我的资源</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="res.qrc">
+                          <normaloff>:/map/map/folder.png</normaloff>:/map/map/folder.png</iconset>
+                        </property>
+                       </item>
+                       <item row="2" column="2">
+                        <property name="text">
+                         <string>-</string>
+                        </property>
+                       </item>
+                       <item row="2" column="3">
+                        <property name="text">
+                         <string>文件夹</string>
+                        </property>
+                       </item>
+                       <item row="2" column="4">
+                        <property name="text">
+                         <string>2022.09.13 15:58</string>
+                        </property>
+                       </item>
+                       <item row="3" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="3" column="1">
+                        <property name="text">
+                         <string>我的照片</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="res.qrc">
+                          <normaloff>:/map/map/folder.png</normaloff>:/map/map/folder.png</iconset>
+                        </property>
+                       </item>
+                       <item row="3" column="2">
+                        <property name="text">
+                         <string>-</string>
+                        </property>
+                       </item>
+                       <item row="3" column="3">
+                        <property name="text">
+                         <string>文件夹</string>
+                        </property>
+                       </item>
+                       <item row="3" column="4">
+                        <property name="text">
+                         <string>2022.07.15 15:58</string>
+                        </property>
+                       </item>
+                       <item row="4" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="4" column="1">
+                        <property name="text">
+                         <string>我的音乐</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="res.qrc">
+                          <normaloff>:/map/map/folder.png</normaloff>:/map/map/folder.png</iconset>
+                        </property>
+                       </item>
+                       <item row="4" column="2">
+                        <property name="text">
+                         <string>-</string>
+                        </property>
+                       </item>
+                       <item row="4" column="3">
+                        <property name="text">
+                         <string>文件夹</string>
+                        </property>
+                       </item>
+                       <item row="4" column="4">
+                        <property name="text">
+                         <string>2012.08.17 15:58</string>
+                        </property>
+                       </item>
+                       <item row="5" column="0">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="checkState">
+                         <enum>Unchecked</enum>
+                        </property>
+                       </item>
+                       <item row="5" column="1">
+                        <property name="text">
+                         <string>我的项目</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="res.qrc">
+                          <normaloff>:/map/map/folder.png</normaloff>:/map/map/folder.png</iconset>
+                        </property>
+                       </item>
+                       <item row="5" column="2">
+                        <property name="text">
+                         <string>-</string>
+                        </property>
+                       </item>
+                       <item row="5" column="3">
+                        <property name="text">
+                         <string>文件夹</string>
+                        </property>
+                       </item>
+                       <item row="5" column="4">
+                        <property name="text">
+                         <string>2012.07.17 12:58</string>
+                        </property>
+                       </item>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
