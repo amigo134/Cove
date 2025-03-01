@@ -1,7 +1,7 @@
 配置环境：
 QT
 C++
-数据库 sqlit3
+数据库 sqlite3
 Socket
 网络编程
 
