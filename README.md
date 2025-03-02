@@ -2,6 +2,7 @@
 QT
 C++
 数据库 sqlite3
+多线程
 Socket
 网络编程
 
